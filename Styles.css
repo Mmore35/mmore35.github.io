@@ -1,0 +1,38 @@
+ 
+img{
+   border-radius: 50%; border-color: indigo; border-width: 5px; border-style: solid;
+   }
+  
+   hr{
+    height: 1px;
+    background-color: indigo;
+    border: none;
+   }
+
+   a[href^="mailto"] { color: gold;}
+   a[href^="mailto"]:hover:after { content: " > mmore35@lsu.edu"; }
+  
+   .interactive :hover{
+    -moz-transform: translate(-2px, -2px);
+    -ms-transform: translate(-2px, -2px);
+    -o-transform: translate(-2px, -2px);
+    -webkit-transform: translate(-2px, -2px);
+    transform: translate(-2px, -2px)
+   }
+
+   .info {
+   color: gold; font-size: large; font-weight: 500;
+   }
+
+   .important {
+   color: indigo; background-color:gold; font-size: large; font-weight: 500;
+   }
+  
+   .maintxt {
+   color: indigo; font-size: normal; font-weight: lighter; font-family: 'Caladea', serif;
+   }
+  
+  .aligncenter {
+  Text-align: center;
+  }
+
