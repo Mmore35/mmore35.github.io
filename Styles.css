@@ -1,11 +1,11 @@
  
 img{
-   border-radius: 50%; border-color: indigo; border-width: 5px; border-style: solid;
+   border-radius: 50%; border-color: #281242; border-width: 5px; border-style: solid;
    }
   
    hr{
     height: 1px;
-    background-color: indigo;
+    background-color: #281242;
     border: none;
    }
 
@@ -25,14 +25,21 @@ img{
    }
 
    .important {
-   color: indigo; background-color:gold; font-size: large; font-weight: 500;
+   color: #281242; background-color:gold; font-size: large; font-weight: 500;
    }
   
    .maintxt {
-   color: indigo; font-size: normal; font-weight: lighter; font-family: 'Caladea', serif;
+   color: #281242; font-size: normal; font-weight: lighter; font-family: 'Caladea', serif;
    }
   
   .aligncenter {
   Text-align: center;
   }
 
+  .fixedElement {
+   background-color: #c0c0c0;
+   position:fixed;
+   top:0;
+   width:100%;
+   z-index:100;
+}
