@@ -10,7 +10,8 @@ img{
    }
 
    a[href^="mailto"] { color: gold;}
-   a[href^="mailto"]:hover:after { content: " > mmore35@lsu.edu"; }
+   /* a[href^="mailto"]:hover:after { content: " > mmore35@lsu.edu"; } */
+
   
    .interactive :hover{
     -moz-transform: translate(-2px, -2px);
@@ -43,3 +44,42 @@ img{
    width:100%;
    z-index:100;
 }
+
+div#banner { 
+   position: absolute; 
+   top: 0; 
+   left: 0; 
+   background-color: rgba(178, 211, 221, 0.568); 
+   width: 100%; 
+ }
+
+ div#banner-content { 
+   /* width: 800px;  */
+   margin: 0 auto; 
+   padding: 10px; 
+   border: 1px solid #000;
+   text-align: center;
+   font-size: large;
+ }
+
+ a#Portfolio {
+   color: rgb(0, 81, 90);
+   padding: 0.5em 1.0em;
+   text-decoration: none;
+   text-transform: uppercase;
+ }
+
+ a#Email {
+   color: rgb(0, 81, 90);
+   padding: 0.5em 1.0em;
+   text-decoration: none;
+   text-transform: uppercase;
+ }
+
+ a:hover {
+   background-color: rgba(129, 129, 129, 0.596);
+ }
+
+ a:active {
+   background-color: rgb(34, 34, 34);
+ }
