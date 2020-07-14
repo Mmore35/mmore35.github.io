@@ -52,6 +52,7 @@ div#banner {
  position: absolute; 
  top: 0; 
  left: 0; 
+ right: 0;
  background-color: rgba(178, 211, 221, 0.568); 
  width: 100%; 
 }
