@@ -1,85 +1,92 @@
  
 img{
-   border-radius: 50%; border-color: #281242; border-width: 5px; border-style: solid;
-   }
+ border-radius: 50%; border-color: #2a1b64; border-width: 5px; border-style: solid;
+}
   
-   hr{
-    height: 1px;
-    background-color: #281242;
-    border: none;
-   }
+hr{
+ height: 1px;
+ background-color: #2a1b64;
+ border: none;
+}
 
-   a[href^="mailto"] { color: gold;}
-   /* a[href^="mailto"]:hover:after { content: " > mmore35@lsu.edu"; } */
-
+a[href^="mailto"] { color: gold;}
+/* a[href^="mailto"]:hover:after { content: " > mmore35@lsu.edu"; } */
   
-   .interactive :hover{
-    -moz-transform: translate(-2px, -2px);
-    -ms-transform: translate(-2px, -2px);
-    -o-transform: translate(-2px, -2px);
-    -webkit-transform: translate(-2px, -2px);
-    transform: translate(-2px, -2px)
-   }
+.interactive :hover{
+ -moz-transform: translate(-2px, -2px);
+ -ms-transform: translate(-2px, -2px);
+ -o-transform: translate(-2px, -2px);
+ -webkit-transform: translate(-2px, -2px);
+ transform: translate(-2px, -2px)
+}
 
-   .info {
-   color: gold; font-size: large; font-weight: 500;
-   }
+.info {
+ font-size: large; font-weight: 500;
+}
 
-   .important {
-   color: #281242; background-color:gold; font-size: large; font-weight: 500;
-   }
+.important {
+ color: #2a1b64; font-size: 1.3em; font-weight: 500;
+}
   
-   .maintxt {
-   color: #281242; font-size: normal; font-weight: lighter; font-family: 'Caladea', serif;
-   }
+.maintxt {
+ color: #281242; font-size: normal; font-weight: lighter; font-family: 'Caladea', serif;
+}
   
-  .aligncenter {
-  Text-align: center;
-  }
+.maintxt2 {
+ color: #2a1b64; font-size: normal; font-weight: lighter; font-family: 'Caladea', serif;
+}
 
-  .fixedElement {
-   background-color: #c0c0c0;
-   position:fixed;
-   top:0;
-   width:100%;
-   z-index:100;
+.aligncenter {
+ Text-align: center;
+}
+
+.fixedElement {
+ background-color: #c0c0c0;
+ position:fixed;
+ top:0;
+ width:100%;
+ z-index:100;
 }
 
 div#banner { 
-   position: absolute; 
-   top: 0; 
-   left: 0; 
-   background-color: rgba(178, 211, 221, 0.568); 
-   width: 100%; 
- }
+ position: absolute; 
+ top: 0; 
+ left: 0; 
+ background-color: rgba(178, 211, 221, 0.568); 
+ width: 100%; 
+}
 
- div#banner-content { 
-   /* width: 800px;  */
-   margin: 0 auto; 
-   padding: 10px; 
-   border: 1px solid #000;
-   text-align: center;
-   font-size: large;
- }
+div#banner-content { 
+ margin: 0 auto; 
+ padding: 0.5em; 
+ border: 1px solid #000;
+ text-align: center;
+ font-size: large;
+}
 
- a#Portfolio {
-   color: rgb(0, 81, 90);
-   padding: 0.5em 1.0em;
-   text-decoration: none;
-   text-transform: uppercase;
- }
+a#BannerID {
+ color: rgb(0, 81, 90);
+ padding: 0.5em 1.0em;
+ text-decoration: none;
+ text-transform: uppercase;
+}
 
- a#Email {
-   color: rgb(0, 81, 90);
-   padding: 0.5em 1.0em;
-   text-decoration: none;
-   text-transform: uppercase;
- }
+a#BannerID-IA {
+ color: rgba(178, 211, 221, 0.568);
+ background-color: rgb(0, 81, 90);
+ padding: 0.5em 1.0em;
+ text-decoration: none;
+ text-transform: uppercase;
+}
 
- a:hover {
-   background-color: rgba(129, 129, 129, 0.596);
- }
+a:hover {
+ background-color: rgba(65, 94, 126, 0.596);
+}
 
- a:active {
-   background-color: rgb(34, 34, 34);
- }
+a:active {
+ background-color: rgba(0, 81, 90, 0.63);
+}
+
+.ProjectName {
+ color: #281242; background-color:gold; font-size: large; font-weight: 500;
+}
