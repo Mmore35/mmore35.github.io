@@ -1,8 +1,12 @@
  
-img{
+img#Headshot {
  border-radius: 50%; border-color: #2a1b64; border-width: 5px; border-style: solid;
 }
   
+img#Portfolio {
+   padding: 10px; 
+  }
+
 hr{
  height: 1px;
  background-color: #2a1b64;
@@ -40,6 +44,10 @@ a[href^="mailto"] { color: gold;}
  Text-align: center;
 }
 
+.alignLeft {
+   Text-align: left;
+  }
+
 .fixedElement {
  background-color: #c0c0c0;
  position:fixed;
@@ -52,7 +60,6 @@ div#banner {
  position: absolute; 
  top: 0; 
  left: 0; 
- right: 0;
  background-color: rgba(178, 211, 221, 0.568); 
  width: 100%; 
 }
@@ -88,6 +95,44 @@ a:active {
  background-color: rgba(0, 81, 90, 0.63);
 }
 
-.ProjectName {
- color: #281242; background-color:gold; font-size: large; font-weight: 500;
+h1 span { 
+ color: #2a1b64;
+}
+
+span#BGB {
+ background-color:rgba(110, 170, 180, 0.521);
+}
+
+.InLine {
+   display: block;
+   height: 30px;
+   line-height: 30px;
+   padding: 4px 6px;
+   font-size: 16px;
+   margin-bottom: 13px;
+   clear: both;
+ }    
+
+ .InLine .Left {
+   float: left;
+ }
+
+ .InLine .Right {
+   float: right;
+   background-color:rgba(110, 170, 180, 0.521);
+ }      
+ 
+ div#Box {
+   height: 35em;
+   border: 5px solid rgba(42, 73, 100, 0.753);
+   margin: 20px;
+ }
+
+ hr#Sup {
+   display: block;
+   height: 5px;
+   border: 0;
+   margin: 1em 0;
+   padding: 0;
+   background-color: #2a1b648c;
 }
