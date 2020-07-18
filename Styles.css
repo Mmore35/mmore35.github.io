@@ -4,7 +4,9 @@ img#Headshot {
 }
   
 img#Portfolio {
-   padding: 10px; 
+   padding: 10px;
+   background:rgba(39, 111, 179, 0.212);
+   border:5px solid #60686b;
   }
 
 hr{
@@ -122,6 +124,11 @@ span#BGB {
    background-color:rgba(110, 170, 180, 0.521);
  }      
  
+ .InLine .Bottom {
+   float: bottom;
+   background-color:rgba(110, 170, 180, 0.521);
+ }   
+
  div#Box {
    height: 35em;
    border: 5px solid rgba(42, 73, 100, 0.753);
