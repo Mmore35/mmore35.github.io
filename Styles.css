@@ -6,7 +6,7 @@ img#Headshot {
 img#Portfolio {
    padding: 10px;
    background:rgba(39, 111, 179, 0.212);
-   border:5px solid #60686b;
+   border: 5px solid #60686b;
   }
 
 hr{
@@ -142,4 +142,23 @@ span#BGB {
    margin: 1em 0;
    padding: 0;
    background-color: #2a1b648c;
+}
+
+.img:hover{
+   color: #424242; 
+ -webkit-transition: all .3s ease-in;
+ -moz-transition: all .3s ease-in;
+ -ms-transition: all .3s ease-in;
+ -o-transition: all .3s ease-in;
+ transition: all .3s ease-in;
+ opacity: 1;
+ transform: scale(1.10);
+ -ms-transform: scale(1.10); /* IE 9 */
+ -webkit-transform: scale(1.10); /* Safari and Chrome */
+}
+
+@media screen and (max-width: 750px) {
+   img#Portfolio {
+        width: 300px;
+   }
 }
