@@ -71,7 +71,7 @@ div#banner-content {
  padding: 0.5em; 
  border: 1px solid #000;
  text-align: center;
- font-size: large;
+ font-size: medium;
 }
 
 a#BannerID {
@@ -166,6 +166,5 @@ span#BGB {
    div#banner-content {
       font-size: medium;
    }
-
 
 }
