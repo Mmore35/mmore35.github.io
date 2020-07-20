@@ -158,7 +158,14 @@ span#BGB {
 }
 
 @media screen and (max-width: 750px) {
+
    img#Portfolio {
         width: 300px;
    }
+
+   div#banner-content {
+      font-size: medium;
+   }
+
+
 }
