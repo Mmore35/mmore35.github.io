@@ -89,10 +89,19 @@ a#BannerID {
 
 a#BannerID-IA {
  /* color: rgba(178, 211, 221, 0.568); */
- color: rgba(20, 38, 49, 0.568);
  /* background-color: rgb(0, 81, 90); */
+ color: rgba(20, 38, 49, 0.568);
  background-color: rgb(0, 145, 161);
  padding: 0.5em 1.0em;
+ text-decoration: none;
+ text-transform: uppercase;
+}
+
+a#Link {
+ color: #ece8fd;
+ background-color: rgb(0, 145, 161);
+ font-size: large;
+ padding: 0.4em .8em;
  text-decoration: none;
  text-transform: uppercase;
 }
