@@ -46,6 +46,11 @@ a[href^="mailto"] { color: gold;}
  color: #ece8fd; font-size: normal; font-weight: lighter; font-family: 'Caladea', serif;
 }
 
+.Description {
+  color: #ece8fd;
+  font-size: large;
+ }
+
 .aligncenter {
  Text-align: center;
 }
