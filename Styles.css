@@ -49,6 +49,7 @@ a[href^="mailto"] { color: gold;}
 .Description {
   color: #ece8fd;
   font-size: large;
+  /* display: block; */
  }
 
 .aligncenter {
@@ -131,6 +132,8 @@ span#BGB {
 
 .InLine {
    display: block;
+   /* display: inline-block; */
+   /* text-align: center; */
    height: 30px;
    line-height: 30px;
    padding: 4px 6px;
