@@ -58,7 +58,7 @@ a[href^="mailto"] { color: gold;}
 
 .alignLeft {
    Text-align: left;
-  }
+}
 
 .fixedElement {
  background-color: #c0c0c0;
