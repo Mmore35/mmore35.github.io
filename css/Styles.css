@@ -192,16 +192,35 @@ span#AppPartName {
 
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 660px) {
 
   img#Portfolio {
-    width: 210px;
+    width: 310px;
   }
 
   div#banner-content {
     font-size: small;
   }
 
+  span#AppPartName {
+    font-size: 18px;
+  }
+
+}
+
+@media screen and (max-width: 525px) {
+
+  img#Portfolio {
+    width: 210px;
+  }
+
+  div#banner-content {
+    font-size: smaller;
+  }
+
+  span#AppPartName {
+    font-size: 14px;
+  }
 }
 
 .RGBThing {
