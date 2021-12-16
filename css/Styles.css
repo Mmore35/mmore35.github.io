@@ -66,7 +66,6 @@ div#banner {
  position: absolute; 
  top: 0; 
  left: 0; 
- /* background-color: rgba(178, 211, 221, 0.568);  */
  background-color: rgba(20, 38, 49, 0.568); 
  width: 100%; 
 }
@@ -117,6 +116,10 @@ h1 span {
 
 span#BGB {
  background-color:rgba(54, 67, 70, 0.521);
+}
+
+span#AppPartName {
+  font-size: 25px
 }
 
 .InLine {
@@ -181,6 +184,22 @@ span#BGB {
 
   div#banner-content {
     font-size: medium;
+  }
+
+  span#AppPartName {
+    font-size: 18px;
+  }
+
+}
+
+@media screen and (max-width: 500px) {
+
+  img#Portfolio {
+    width: 210px;
+  }
+
+  div#banner-content {
+    font-size: small;
   }
 
 }
