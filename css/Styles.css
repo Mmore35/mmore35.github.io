@@ -75,7 +75,7 @@ div#banner-content {
  padding: 0.5em; 
  border: 1px solid #000;
  text-align: center;
- font-size: large;
+ font-size: 18px;
 }
 
 a#BannerID {
@@ -183,7 +183,7 @@ span#AppPartName {
   }
 
   div#banner-content {
-    font-size: medium;
+    font-size: 16px;
   }
 
   span#AppPartName {
@@ -199,27 +199,42 @@ span#AppPartName {
   }
 
   div#banner-content {
-    font-size: small;
+    font-size: 13px;
   }
 
   span#AppPartName {
-    font-size: 18px;
+    font-size: 16px;
   }
 
 }
 
-@media screen and (max-width: 525px) {
+@media screen and (max-width: 550px) {
 
   img#Portfolio {
     width: 210px;
   }
 
   div#banner-content {
-    font-size: smaller;
+    font-size: 11px;
   }
 
   span#AppPartName {
     font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+
+  img#Portfolio {
+    width: 210px;
+  }
+
+  div#banner-content {
+    font-size: 10px;
+  }
+
+  span#AppPartName {
+    font-size: 12px;
   }
 }
 
