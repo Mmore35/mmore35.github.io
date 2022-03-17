@@ -9,10 +9,10 @@ const FullPage = () => {
           <SideBar/>
         </div>
         <div className='basis-5/6'>
-        <div>
+        <div className=''>
         <AboutPage/>
         </div>
-        <div>
+        <div className='h-screen'>
         <Projects/>
         </div>
         {/* TODO: games */}

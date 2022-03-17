@@ -17,4 +17,8 @@
     .MainText {
         @apply text-center text-General-100 text-lg font-mono align-middle m-auto p-5
       }
+
+      .h-ten {
+        height: 10vh;
+    }
 }
