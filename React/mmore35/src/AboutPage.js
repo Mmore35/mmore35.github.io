@@ -24,6 +24,7 @@ const AboutPage = () => {
          This website was made using React and TailwindCSS! 
         </section> 
         </p>
+        {/* TODO: Later, Make page look nicer, more graphics and variability */}
         </div>
         </div>
     );

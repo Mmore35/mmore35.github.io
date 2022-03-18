@@ -12,9 +12,10 @@ const FullPage = () => {
         <div className=''>
         <AboutPage/>
         </div>
-        <div className='h-screen'>
+        <div className='h-plushalf'>
         <Projects/>
         </div>
+        {/* TODO: make React the front page with a link to the html site */}
         {/* TODO: games */}
         </div>
         </body>
