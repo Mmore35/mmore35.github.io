@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.62b917d8.css",
-    "main.js": "/react-gh-pages/static/js/main.da20e4ff.js",
-    "static/js/787.33e24778.chunk.js": "/react-gh-pages/static/js/787.33e24778.chunk.js",
-    "static/media/ClassConnect1.PNG": "/react-gh-pages/static/media/ClassConnect1.858f38555ecf3f593f9e.PNG",
-    "static/media/Task Viewnew.PNG": "/react-gh-pages/static/media/Task Viewnew.1520ef5f97897436e21c.PNG",
-    "index.html": "/react-gh-pages/index.html",
-    "main.62b917d8.css.map": "/react-gh-pages/static/css/main.62b917d8.css.map",
-    "main.da20e4ff.js.map": "/react-gh-pages/static/js/main.da20e4ff.js.map",
-    "787.33e24778.chunk.js.map": "/react-gh-pages/static/js/787.33e24778.chunk.js.map"
+    "main.css": "/mmore35/static/css/main.62b917d8.css",
+    "main.js": "/mmore35/static/js/main.b9b1da24.js",
+    "static/js/787.33e24778.chunk.js": "/mmore35/static/js/787.33e24778.chunk.js",
+    "static/media/ClassConnect1.PNG": "/mmore35/static/media/ClassConnect1.858f38555ecf3f593f9e.PNG",
+    "static/media/Task Viewnew.PNG": "/mmore35/static/media/Task Viewnew.1520ef5f97897436e21c.PNG",
+    "index.html": "/mmore35/index.html",
+    "main.62b917d8.css.map": "/mmore35/static/css/main.62b917d8.css.map",
+    "main.b9b1da24.js.map": "/mmore35/static/js/main.b9b1da24.js.map",
+    "787.33e24778.chunk.js.map": "/mmore35/static/js/787.33e24778.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.62b917d8.css",
-    "static/js/main.da20e4ff.js"
+    "static/js/main.b9b1da24.js"
   ]
 }
