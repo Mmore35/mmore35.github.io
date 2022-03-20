@@ -1,7 +1,7 @@
 {
   "name": "mmore35",
   "version": "0.1.0",
-  "homepage": "https://mmore35.github.io/react-gh-pages",
+  "homepage": "https://mmore35.github.io/mmore35",
   "private": true,
   "dependencies": {
     "@craco/craco": "^6.4.3",
