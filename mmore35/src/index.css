@@ -24,4 +24,7 @@
     .h-plushalf {
         height: 150vh;
     }
+    .min-w-smallImg {
+        min-width: 20vh;
+    }
 }

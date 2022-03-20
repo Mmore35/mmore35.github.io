@@ -12,7 +12,7 @@ const FullPage = () => {
         <div className=''>
         <AboutPage/>
         </div>
-        <div className='h-plushalf'>
+        <div className='h-screen'>
         <Projects/>
         </div>
         {/* TODO: make React the front page with a link to the html site */}

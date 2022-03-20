@@ -5,9 +5,7 @@ module.exports = {
   ],
   //darkMode: false, // or 'media' or 'class'
   theme: {
-    screens: {
-      'sm': '640px',
-    },
+    
     extend: {
       colors: {
         'BackGround': {
