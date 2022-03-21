@@ -14,6 +14,14 @@
                cursor-pointer h-20;
     }
 
+    .sidebar-tooltip {
+        @apply absolute w-auto p-2 m-2 min-w-max left-14
+        rounded-md shadow-md
+        text-white bg-gray-900 
+        text-xs font-bold
+        transition-all duration-100 scale-0 origin-left;
+      }
+
     .MainText {
         @apply text-center text-General-100 text-lg font-mono align-middle m-auto p-5
       }
