@@ -1,7 +1,6 @@
 import { MdEmail } from 'react-icons/md';
 import { AiOutlineAppstore } from 'react-icons/ai';
 import { FaUserGraduate, FaGamepad } from 'react-icons/fa';
-import ScrollToTop from './ScrollToTop';
 import { BrowserRouter as Router, Link} from "react-router-dom";
 
 const SideBar = () => {
