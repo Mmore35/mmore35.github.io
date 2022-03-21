@@ -9,8 +9,8 @@ const FullPage = () => {
         <SideBar />
       </div>
       <div className='basis-5/6'>
-        <div className=''>
-          <AboutPage />
+        <div id='aboutMe' className=''>
+          <AboutPage/>
         </div>
         <div className=''>
           <Projects />
