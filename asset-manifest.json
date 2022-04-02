@@ -1,15 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.116c8f11.css",
-    "main.js": "/static/js/main.27191654.js",
+    "main.js": "/static/js/main.a4d63958.js",
+    "static/media/School Day 10fps.gif": "/static/media/School Day 10fps.e21b99f5d855a64b682c.gif",
+    "static/media/Planet Crawler2.gif": "/static/media/Planet Crawler2.8a07ae30ee040b06a9a5.gif",
     "static/media/ClassConnect1.PNG": "/static/media/ClassConnect1.858f38555ecf3f593f9e.PNG",
     "static/media/Task Viewnew.PNG": "/static/media/Task Viewnew.1520ef5f97897436e21c.PNG",
     "index.html": "/index.html",
     "main.116c8f11.css.map": "/static/css/main.116c8f11.css.map",
-    "main.27191654.js.map": "/static/js/main.27191654.js.map"
+    "main.a4d63958.js.map": "/static/js/main.a4d63958.js.map"
   },
   "entrypoints": [
     "static/css/main.116c8f11.css",
-    "static/js/main.27191654.js"
+    "static/js/main.a4d63958.js"
   ]
 }
