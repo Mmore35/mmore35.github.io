@@ -27,7 +27,7 @@ import FullPage from './FullPage'
 // }
 
 function App() {
-  return (
+  return ( 
     <FullPage/>
   );
 }
