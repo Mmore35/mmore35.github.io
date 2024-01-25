@@ -5,8 +5,10 @@ import TailwindIcon from "./assets/tailwindcss-mark.3c5441fc7a190fb1800d4a5c7f07
 function App() {
   return (
     <>
-      <div className="">Hello my name is Mike!</div>
-      <Icon src={TailwindIcon} size="medium" />
+      <div className=" text-3xl font-bold underline">
+        Hello my name is Mike!
+      </div>
+      <Icon src={TailwindIcon} size="large" />
     </>
   );
 }
