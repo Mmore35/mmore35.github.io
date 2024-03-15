@@ -12,7 +12,7 @@ export const IconRow = ({ srcList }: IconRowProps) => {
   };
 
   return (
-    <div className="flex">
+    <div className="flex justify-center">
       {srcList.map((src, index) => {
         return <Icon src={src} key={index} />;
       })}
