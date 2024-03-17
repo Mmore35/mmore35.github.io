@@ -1,11 +1,12 @@
 import { Header } from "./Components/Header/Header";
-import { TechStack } from "./Components/TechStack/TechStack";
+import Routes from "./pages/Routes/Routes";
+import { BrowserRouter as Router } from "react-router-dom";
 
 export default function App() {
   return (
-    <>
+    <Router>
       <Header />
-      <TechStack />
-    </>
+      <Routes />
+    </Router>
   );
 }
