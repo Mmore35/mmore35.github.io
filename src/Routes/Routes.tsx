@@ -1,8 +1,8 @@
 import { Routes as RouterGroup, Route } from "react-router-dom";
-import Work from "../Work/Work";
-import About from "../About/About";
-import Gallery from "../Gallery/Gallery";
-import Home from "../Home/Home";
+import Work from "../pages/Work/Work";
+import About from "../pages/About/About";
+import Gallery from "../pages/Gallery/Gallery";
+import Home from "../pages/Home/Home";
 
 export default function Routes() {
   return (

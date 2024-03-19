@@ -1,4 +1,4 @@
-import { PictureDescriptionType } from "../../pages/Gallery/PictureDescriptionList";
+import { PictureDescriptionType } from "../../util/PictureDescriptionList";
 
 export const PictureDescriptionCard = (
   PictureDescription: PictureDescriptionType

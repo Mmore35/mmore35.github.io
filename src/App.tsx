@@ -1,5 +1,5 @@
 import { Header } from "./Components/Header/Header";
-import Routes from "./pages/Routes/Routes";
+import Routes from "./Routes/Routes";
 import { BrowserRouter as Router } from "react-router-dom";
 
 export default function App() {

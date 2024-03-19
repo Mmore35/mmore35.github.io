@@ -1,5 +1,5 @@
 import { PictureDescriptionCard } from "../../Components/PictureDescriptionCard/PictureDescriptionCard";
-import { PictureDescriptionList } from "./PictureDescriptionList";
+import { PictureDescriptionList } from "../../util/PictureDescriptionList";
 
 export default function Gallery() {
   return (

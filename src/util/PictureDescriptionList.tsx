@@ -1,4 +1,4 @@
-import SparkLatte from "../../assets/Gallery/SparkLatte.jpg";
+import SparkLatte from "../assets/Gallery/SparkLatte.jpg";
 
 export type PictureDescriptionType = {
   src: string;
