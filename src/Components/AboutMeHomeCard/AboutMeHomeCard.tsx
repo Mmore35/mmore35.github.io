@@ -1,17 +1,18 @@
 import { CoolAnimation } from "../CoolAnimation/CoolAnimation";
+import { FirstImpression } from "./FirstImpression";
+import { SecondImpression } from "./SecondImpression";
 
 export const AboutMeHomeCard = () => {
   return (
-    <div className="grid grid-rows-3 grid-flow-col gap-4 pt-16">
-      <div className="row-start-1 row-span-3 h-100 bg-white">
+    <div className="grid grid-flow-col gap-4 pt-16">
+      <div className="h-96 w-64 p-10 m-2">
         <CoolAnimation />
       </div>
-      <div className="row-start-2 row-end-3 h-10 bg-black">
-        Michael Morel in bold. Full Stack Developer, Japan enthusiast (Section
-        in progress)
+      <div className="flex items-center">
+        <FirstImpression />
       </div>
-      <div className="row-start-1 row-end-3 h-10 bg-black">
-        More details section, on med and smaller screens make this go to bottom
+      <div className="h-full">
+        <SecondImpression />
       </div>
     </div>
   );
