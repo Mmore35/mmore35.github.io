@@ -19,7 +19,7 @@ export const LaWalletPictureSet: WorkPictureSet = {
   MobilePicture: LaWalletMobilePicture,
 };
 
-export const JpmcHomeCard: WorkHomeCardProps = {
+export const JpmcHomeCardData: WorkHomeCardProps = {
   WorkName: "JPMORGAN CHASE & CO.",
   WorkPosition: "Full Stack Software Engineer",
   WorkDescription:
@@ -28,7 +28,7 @@ export const JpmcHomeCard: WorkHomeCardProps = {
   MobilePicture: JPMCPictureSet.MobilePicture,
 };
 
-export const LaWalletHomeCard: WorkHomeCardProps = {
+export const LaWalletHomeCardData: WorkHomeCardProps = {
   WorkName: "LA WALLET",
   WorkPosition: "Full Stack Software Engineer",
   WorkDescription:
@@ -37,7 +37,7 @@ export const LaWalletHomeCard: WorkHomeCardProps = {
   MobilePicture: LaWalletPictureSet.MobilePicture,
 };
 
-export const WorkHomeCards: WorkHomeCardProps[] = [
-  JpmcHomeCard,
-  LaWalletHomeCard,
+export const WorkHomeCardsData: WorkHomeCardProps[] = [
+  JpmcHomeCardData,
+  LaWalletHomeCardData,
 ];
