@@ -9,7 +9,7 @@ export const SecondImpression = () => {
       <div className="text-indigo-100 text-xl mt-16 w-96">
         <span className="font-bold text-4xl">My Goal</span> is to find like
         minded people to build a network of hard working career focused
-        individuals that span the world.
+        individuals spanning the world.
       </div>
     </div>
   );
