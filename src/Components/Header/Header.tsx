@@ -11,7 +11,6 @@ export const Header = () => {
   const navigate = useNavigate();
   const Links = [
     { name: "HOME", link: "/" },
-    { name: "WORK", link: "/work" },
     { name: "ABOUT ME", link: "/about" },
   ];
 
@@ -71,11 +70,14 @@ export const Header = () => {
 
   const Banner = ({ children }: BannerProps) => {
     return (
-      <div className="shadow-md w-full fixed top-0 left-0 z-50">
-        <div className="md:flex items-center justify-between bg-slate-900 py-4 md:px-10 px-7">
-          {children}
+      <>
+        <div className="shadow-md w-full fixed top-0 left-0 z-50">
+          <div className="md:flex items-center justify-between bg-slate-900 py-4 md:px-10 px-7">
+            {children}
+          </div>
         </div>
-      </div>
+        <div className="pt-16" />
+      </>
     );
   };
 

@@ -5,7 +5,7 @@ import { WorkHomeCardsData } from "../../util/WorkSets";
 const WorkHomeCards = () => {
   return WorkHomeCardsData.map((workHomeCardData, index) => {
     return (
-      <>
+      <div key={index}>
         <hr className="h-px my-8 border-0 bg-indigo-100 w-4/5 m-auto" />
         <WorkHomeCard
           WorkName={workHomeCardData.WorkName}
@@ -13,9 +13,8 @@ const WorkHomeCards = () => {
           WorkDescription={workHomeCardData.WorkDescription}
           FullScreenPicture={workHomeCardData.FullScreenPicture}
           MobilePicture={workHomeCardData.MobilePicture}
-          key={index}
         />
-      </>
+      </div>
     );
   });
 };
