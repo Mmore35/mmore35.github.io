@@ -32,7 +32,7 @@ export const LaWalletHomeCardData: WorkHomeCardProps = {
   WorkName: "LA WALLET",
   WorkPosition: "Full Stack Software Engineer",
   WorkDescription:
-    "The first of its kind in the USA, a fully legal digital driver's license with over 1.8 million active users in Louisiana. My teams helped build the beta for vehicle registration and various other projects under the parent company, Envoc",
+    "The first of its kind in the USA, a fully legal digital driver's license with over 1.8 million active users in Louisiana. My teams helped build the beta for vehicle registration and various other projects under the parent company, Envoc.",
   FullScreenPicture: LaWalletPictureSet.FullScreenPicture,
   MobilePicture: LaWalletPictureSet.MobilePicture,
 };

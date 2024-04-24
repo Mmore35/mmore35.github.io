@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { WorkPictureSet } from "../../util/WorkSets";
+import { useState } from "react";
 
 type WorkHomeInfoProps = {
   WorkName: string;
@@ -29,10 +30,14 @@ const WorkHomePictures = ({
   FullScreenPicture,
   MobilePicture,
 }: WorkPictureSet) => {
+  const [isDesktopHovered, setIsDesktopHovered] = useState(false);
+
   return (
     <div className="flex justify-end m-auto w-3/4 mt-10 mb-20">
       <motion.div
         className="p-2 bg-black rounded-2xl w-full h-fit"
+        onHoverStart={() => setIsDesktopHovered(true)}
+        onHoverEnd={() => setIsDesktopHovered(false)}
         whileHover={{ scale: [null, 1.13, 1.14], zIndex: 10 }}
         transition={{ duration: 0.2 }}
       >
@@ -46,6 +51,10 @@ const WorkHomePictures = ({
         className="absolute rounded-3xl w-60 right-10 mt-40"
         whileHover={{ scale: [null, 1.13, 1.15] }}
         transition={{ duration: 0.2 }}
+        animate={{
+          opacity: isDesktopHovered ? 0 : 1,
+          scale: isDesktopHovered ? 0.95 : 1,
+        }}
       >
         <img src={MobilePicture} alt="Mobile View" className="rounded-md" />
       </motion.div>
