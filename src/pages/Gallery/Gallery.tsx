@@ -1,11 +1,9 @@
-import { InProgressWarning } from "../../Components/InProgressWarning/InProgressWarning";
 import { PictureDescriptionCard } from "../../Components/PictureDescriptionCard/PictureDescriptionCard";
 import { PictureDescriptionList } from "../../util/PictureDescriptionList";
 
 export default function Gallery() {
   return (
-    <>
-      <InProgressWarning />
+    <div className="grid grid-cols-4">
       {PictureDescriptionList.map((PictureDescription, index) => {
         return (
           <PictureDescriptionCard
@@ -15,6 +13,6 @@ export default function Gallery() {
           />
         );
       })}
-    </>
+    </div>
   );
 }
