@@ -4,8 +4,8 @@ export const PictureDescriptionCard = (
   PictureDescription: PictureDescriptionType
 ) => {
   return (
-    <div className="m-16 p-5 bg-slate-800 w-72 rounded-md">
-      <img src={PictureDescription.src} className="rounded-s w-max" />
+    <div className="m-10 p-5 bg-slate-800 rounded-md">
+      <img src={PictureDescription.src} className="rounded-s" />
       <div className="m-3">{PictureDescription.description}</div>
     </div>
   );
