@@ -5,6 +5,7 @@ import {
   CodeBracketIcon,
 } from "@heroicons/react/24/solid";
 import { useNavigate } from "react-router-dom";
+import { GalleryIsVisable } from "../../util/const";
 
 export const Header = () => {
   const [open, setOpen] = useState(false);
@@ -31,12 +32,7 @@ export const Header = () => {
             </button>
           </li>
         ))}
-        <button
-          onClick={() => navigate("/gallery")}
-          className="btn hover:bg-violet-700 bg-violet-800 text-indigo-100 md:ml-8 font-semibold px-3 py-1 rounded duration-500 md:static"
-        >
-          GALLERY
-        </button>
+        {GalleryIsVisable && <GalleryButton />}
       </ul>
     );
   };
@@ -78,6 +74,17 @@ export const Header = () => {
         </div>
         <div className="pt-16" />
       </>
+    );
+  };
+
+  const GalleryButton = () => {
+    return (
+      <button
+        onClick={() => navigate("/gallery")}
+        className="btn hover:bg-violet-700 bg-violet-800 text-indigo-100 md:ml-8 font-semibold px-3 py-1 rounded duration-500 md:static"
+      >
+        GALLERY
+      </button>
     );
   };
 
