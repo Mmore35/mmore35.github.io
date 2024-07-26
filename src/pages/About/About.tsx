@@ -34,9 +34,10 @@ const ThingsIEnjoy = () => {
 
 export default function About() {
   return (
-    <div className="grid grid-flow-col gap-4 text-indigo-100">
+    <div className="grid lg:grid-flow-col grid-flow-row gap-4 text-indigo-100">
       <AboutMeIntro />
-      <div className="w-px bg-indigo-100 m-5" />
+      <div className="w-px bg-indigo-100 m-5 lg:block hidden" />
+      <div className="h-px bg-indigo-100 m-5 lg:hidden block" />
       <ThingsIEnjoy />
     </div>
   );

@@ -14,9 +14,9 @@ const WorkHomeInfo = ({
   WorkDescription,
 }: WorkHomeInfoProps) => {
   return (
-    <div className="grid grid-cols-2 gap-4 p-10">
-      <div className="flex flex-col justify-center">
-        <div className="text-4xl text-indigo-100 font-bold pb-2">
+    <div className="grid grid-row-3 gap-4 p-10 lg:grid-cols-2">
+      <div className="flex flex-row justify-center lg:flex-col">
+        <div className="text-3xl lg:text-4xl text-indigo-100 font-bold lg:pb-2 w-full content-center">
           {WorkName}
         </div>
         <div className="text-xl text-gray-400 font-bold">{WorkPosition}</div>
@@ -33,9 +33,9 @@ const WorkHomePictures = ({
   const [isDesktopHovered, setIsDesktopHovered] = useState(false);
 
   return (
-    <div className="flex justify-end m-auto w-3/4 mt-10 mb-20">
+    <div className="flex xl:justify-end m-auto w-3/4 lg:mt-10 xl:mb-20 mb-28 min-h-96 justify-center">
       <motion.div
-        className="p-2 bg-black rounded-2xl w-full h-fit"
+        className="p-2 bg-black rounded-2xl w-full h-fit hidden xl:block"
         onHoverStart={() => setIsDesktopHovered(true)}
         onHoverEnd={() => setIsDesktopHovered(false)}
         whileHover={{ scale: [null, 1.13, 1.14], zIndex: 10 }}
@@ -48,7 +48,7 @@ const WorkHomePictures = ({
         />
       </motion.div>
       <motion.div
-        className="absolute rounded-3xl w-60 right-10 mt-40"
+        className="absolute rounded-3xl w-60 xl:right-10 xl:mt-40"
         whileHover={{ scale: [null, 1.13, 1.15] }}
         transition={{ duration: 0.2 }}
         animate={{
