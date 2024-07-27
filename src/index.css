@@ -21,3 +21,7 @@
 .animation-paused {
   animation-play-state: paused;
 }
+
+html {
+  overflow-y: scroll;
+}
