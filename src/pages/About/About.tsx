@@ -5,11 +5,11 @@ const AboutMeIntro = () => {
         I'm Mike, a Fullstack Software Engineer based in Tokyo, Japan.
       </h3>
       <div className="text-xl p-5 leading-8">
-        My fascination with state-of-the-art technology guided me to Tokyo, the
-        epicenter of innovation. As a full-stack software developer, I adeptly
-        integrate sophisticated front-end design with efficient back-end
-        systems. My technical arsenal includes advanced tools like TypeScript,
-        Vite, C# .NET, and AWS, enhancing my creations with style, speed, and
+        My fascination with state-of-the-art technology guided me around the
+        world. As a full-stack software developer, I adeptly integrate
+        sophisticated front-end design with efficient back-end systems. My
+        technical arsenal includes advanced tools like TypeScript, Vite, C#
+        .NET, and AWS, enhancing my creations with style, speed, and
         scalability.
       </div>
     </div>
