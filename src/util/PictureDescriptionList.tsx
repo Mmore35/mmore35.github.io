@@ -1,9 +1,9 @@
-import SparkLatte from "../assets/Gallery/SparkLatte.jpg";
-import TurretCoffeeTsukiji from "../assets/Gallery/TurretCoffeeTsukiji.jpg";
-import BlueBottleCoffeeShinagawa from "../assets/Gallery/BlueBottleCoffeeShinagawa.jpg";
-import RoarCoffeeHouse from "../assets/Gallery/RoarCoffeeHouse.jpg";
-import RoarCoffeeHouseRainbow from "../assets/Gallery/RoarCoffeeHouseRainbow.jpg";
-import GoldenGaiMatchaAndGin from "../assets/Gallery/GoldenGaiMatchaAndGin.jpg";
+import SparkLatte from "../assets/Gallery/SparkLatte.avif";
+import TurretCoffeeTsukiji from "../assets/Gallery/TurretCoffeeTsukiji.avif";
+import BlueBottleCoffeeShinagawa from "../assets/Gallery/BlueBottleCoffeeShinagawa.avif";
+import RoarCoffeeHouse from "../assets/Gallery/RoarCoffeeHouse.avif";
+import RoarCoffeeHouseRainbow from "../assets/Gallery/RoarCoffeeHouseRainbow.avif";
+import GoldenGaiMatchaAndGin from "../assets/Gallery/GoldenGaiMatchaAndGin.avif";
 
 export type PictureDescriptionType = {
   src: string;
