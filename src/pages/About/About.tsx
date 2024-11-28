@@ -2,7 +2,8 @@ const AboutMeIntro = () => {
   return (
     <div className="p-10">
       <h3 className="text-3xl font-bold p-5">
-        I'm Mike, a Fullstack Software Engineer based in Tokyo, Japan.
+        I'm Mike, a Full-stack Software Engineer with a passion for web
+        development.
       </h3>
       <div className="text-xl p-5 leading-8">
         My fascination with state-of-the-art technology guided me around the
@@ -23,7 +24,7 @@ const ThingsIEnjoy = () => {
         Some things I enjoy off the clock:
       </h3>
       <ul className="list-disc list-inside">
-        <li className="m-2 text-2xl">Exploring Japan</li>
+        <li className="m-2 text-2xl">Taking trips to Japan</li>
         <li className="m-2 text-2xl">Being with friends</li>
         <li className="m-2 text-2xl">Relaxing at local coffee shops</li>
         <li className="m-2 text-2xl">日本語勉強している</li>
