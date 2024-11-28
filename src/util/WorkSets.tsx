@@ -1,8 +1,8 @@
 import { WorkHomeCardProps } from "../Components/WorkHomeCard/WorkHomeCard";
-import JPMCFullScreenPicture from "../assets/Work/JPMC Dev Portal Post Auth Full.png";
-import JPMCMobilePicture from "../assets/Work/JPMC Dev Portal Pre Auth Mobile in IPhone 14 ver.png";
-import LaWalletFullScreenPicture from "../assets/Work/LaWallet Site Full.png";
-import LaWalletMobilePicture from "../assets/Work/LaWallet Site Mobile.png";
+import JPMCFullScreenPicture from "../assets/Work/JPMC Dev Portal Post Auth Full.avif";
+import JPMCMobilePicture from "../assets/Work/JPMC Dev Portal Pre Auth Mobile in IPhone 14 ver.avif";
+import LaWalletFullScreenPicture from "../assets/Work/LaWallet Site Full.avif";
+import LaWalletMobilePicture from "../assets/Work/LaWallet Site Mobile.avif";
 
 export type WorkPictureSet = {
   FullScreenPicture: string;
