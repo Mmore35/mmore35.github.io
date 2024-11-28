@@ -27,7 +27,7 @@ const ThingsIEnjoy = () => {
         <li className="m-2 text-2xl">Taking trips to Japan</li>
         <li className="m-2 text-2xl">Being with friends</li>
         <li className="m-2 text-2xl">Relaxing at local coffee shops</li>
-        <li className="m-2 text-2xl">日本語勉強している</li>
+        <li className="m-2 text-2xl">日本を語勉強している</li>
       </ul>
     </div>
   );
